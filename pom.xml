@@ -8,6 +8,19 @@
   <packaging>pom</packaging>
   <name>ActiveAndroid - Parent</name>
 
+	<repositories>
+		<repository>
+			<id>maven-arcao-com</id>
+			<url>http://maven.arcao.com</url>
+		</repository>
+	</repositories>
+
+  <parent>
+    <groupId>com.arcao</groupId>
+    <artifactId>parent</artifactId>
+    <version>1</version>
+  </parent>
+
   <modules>
     <module>pom-child.xml</module>
     <module>tests</module>
